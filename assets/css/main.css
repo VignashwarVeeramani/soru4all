@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+}
+a {
+    color: white;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.top-nav{
+    background-color: red;
+    color:white;
+}
+
+.top-nav img{
+    width: auto;
+    height: 16px;
+}
+
+.top-nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav .phone-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .phone-wrapper .phone {
+    text-decoration: none;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-nav ul li {
+    padding: 0 5px;
+}
